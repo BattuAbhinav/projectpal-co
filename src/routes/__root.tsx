@@ -77,11 +77,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "TaskFlow — Team task management" },
       { name: "description", content: "Projects, kanban boards, and role-based access for shipping teams." },
       { name: "author", content: "TaskFlow" },
-      { property: "og:title", content: "TaskFlow" },
-      { property: "og:description", content: "Team task management with role-based access." },
+      { property: "og:title", content: "TaskFlow — Team task management" },
+      { property: "og:description", content: "Projects, kanban boards, and role-based access for shipping teams." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "TaskFlow — Team task management" },
+      { name: "twitter:description", content: "Projects, kanban boards, and role-based access for shipping teams." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a9ea1ef9-b4af-42f7-b1b2-8460551935de/id-preview-98ddf97a--f9e0e01b-d480-4a88-bea1-9a9942082ca1.lovable.app-1778152447851.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a9ea1ef9-b4af-42f7-b1b2-8460551935de/id-preview-98ddf97a--f9e0e01b-d480-4a88-bea1-9a9942082ca1.lovable.app-1778152447851.png" },
     ],
     links: [
       {
